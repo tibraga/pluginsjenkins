@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='viewerhar' artifactId='viewerhar' version='1.5-SNAPSHOT'><l:dependency name='Viewer HAR Report' groupId='viewerhar' artifactId='viewerhar' version='1.5-SNAPSHOT' url='http://jenkins-ci.org/plugin/viewerhar/'><l:description/><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

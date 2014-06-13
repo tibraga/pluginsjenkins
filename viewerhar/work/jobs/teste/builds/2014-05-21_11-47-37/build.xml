@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@2.2.1">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@1.9.0">
+              <sha1>b428f41c014497da43135b512eabb183d9375379</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>28</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@2.2.1">
+      <build class="build" reference="../../.."/>
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>C:\projetos\viewerhar\work\jobs\teste\workspace</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.tasks.junit.TestResultAction>
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>1</totalCount>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+    <br.eti.tiagobraga.jenkins.plugins.viewerhar.ViewerHarReportAction plugin="viewerhar@1.0-SNAPSHOT">
+      <build class="build" reference="../../.."/>
+      <harReportsDir>C:\projetos\viewerhar\.\work\jobs\teste\builds\2014-05-21_11-47-37</harReportsDir>
+    </br.eti.tiagobraga.jenkins.plugins.viewerhar.ViewerHarReportAction>
+  </actions>
+  <number>28</number>
+  <startTime>1400683657313</startTime>
+  <result>SUCCESS</result>
+  <duration>17731</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\projetos\viewerhar\work\jobs\teste\workspace</workspace>
+  <hudsonVersion>1.532.3</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@2.2.1">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

@@ -1,0 +1,30 @@
+commit c244f4f6f92a4553085f11c3050dc5119b51bf87
+tree 82e75ffa2ac8ab3695999f908e83bd49e0c02b66
+parent 448987e92d9a22b1b767a5f8cec0031698fe1d1d
+author tiago.machado <tiago.machado@hotelurbano.com.br> 1400681327 -0300
+committer tiago.machado <tiago.machado@hotelurbano.com.br> 1400681327 -0300
+
+    Corringindo o path do arquivo har
+
+:100644 100644 569da843d5e5b6e668cd3bc28c6a1fadfd7180e0 aab09d39ea12bfa47654058b83de3f9f7ac99fc5 M	src/br/com/hotelurbano/tests/site/CommonsTestSite.java
+
+commit 448987e92d9a22b1b767a5f8cec0031698fe1d1d
+tree ab1e8e55136234d6725befe15d83b28d93b0633d
+parent 67801b335c64ceb57122b73d111f60a47015f12e
+author tiago.machado <tiago.machado@hotelurbano.com.br> 1400679908 -0300
+committer tiago.machado <tiago.machado@hotelurbano.com.br> 1400680491 -0300
+
+    Incluindo espaÃ§o para atualizar no jenkins
+
+:100644 100644 5440077dd73f87341acb3efcc3e12711e68ad509 569da843d5e5b6e668cd3bc28c6a1fadfd7180e0 M	src/br/com/hotelurbano/tests/site/CommonsTestSite.java
+
+commit 67801b335c64ceb57122b73d111f60a47015f12e
+tree f342777b77d2937bcf8f2fdaf1a941d0071b2a9f
+parent 36c06818785998e744cec3bb1798887fad9d7e1c
+author tiago.machado <tiago.machado@hotelurbano.com.br> 1400679416 -0300
+committer tiago.machado <tiago.machado@hotelurbano.com.br> 1400679456 -0300
+
+    Parametrizando a url do aquivo har de acordo com os testes para evitar
+    sobreposiÃ§Ã£o
+
+:100644 100644 b4c42b488fdd70042e3b9926e95e6ee562947349 5440077dd73f87341acb3efcc3e12711e68ad509 M	src/br/com/hotelurbano/tests/site/CommonsTestSite.java

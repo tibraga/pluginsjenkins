@@ -1,0 +1,8 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+<script language="JavaScript"> 
+	window.location="${it.RootUrl}plugin/viewerhar/index.html${it.urlParams}"; 
+</script> 
+<noscript> 
+Se não for direcionado automaticamente, clique <a href="http://localhost:8080/jenkins/plugin/viewerhar/index.html${it.urlParams}">aqui</a>. 
+</noscript>        
+</j:jelly>

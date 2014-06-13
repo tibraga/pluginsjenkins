@@ -1,0 +1,45 @@
+Iniciado pelo usuário [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\projetos\viewerhar\work\jobs\teste\workspace
+ > git.exe rev-parse --is-inside-work-tree
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git
+Fetching upstream changes from http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git
+ > git.exe --version
+ > git.exe fetch --tags --progress http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "origin/master^{commit}"
+Checking out Revision ad57d5a434aba1d91e7f48f9fcfa81faab24a63c (origin/master)
+ > git.exe config core.sparsecheckout
+ > git.exe checkout -f ad57d5a434aba1d91e7f48f9fcfa81faab24a63c
+ > git.exe rev-list ad57d5a434aba1d91e7f48f9fcfa81faab24a63c
+[workspace] $ mvn.bat test -Dtest=br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests -Dbrowser=chrome -DhostHub=http://localhost:4444/wd/hub -DproxyHar=true
+The system cannot find the file specified
+FATAL: execução de comando falhou
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: Cannot run program "mvn.bat" (in directory "C:\projetos\viewerhar\work\jobs\teste\workspace"): CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041)
+	at hudson.Proc$LocalProc.<init>(Proc.java:244)
+	at hudson.Proc$LocalProc.<init>(Proc.java:216)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:773)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:353)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:360)
+	at hudson.tasks.Maven.perform(Maven.java:329)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:785)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:566)
+	at hudson.model.Run.execute(Run.java:1665)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:246)
+Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:385)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022)
+	... 15 more
+Build step 'Invocar alvos Maven de alto nível' marked build as failure
+Gravando o resultado dos testes
+Publishing Viewer Har report...
+Missing directory sample.har
+Build step 'Publish Viewer HAR Report' marked build as failure
+Finished: FAILURE

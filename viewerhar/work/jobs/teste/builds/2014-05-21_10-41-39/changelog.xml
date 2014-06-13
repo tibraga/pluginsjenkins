@@ -1,0 +1,10 @@
+commit 621e8a273247ad90be3355567efe491834a10595
+tree 031c2c33522e0f18e87ae81d8ff968425841d41d
+parent 36c06818785998e744cec3bb1798887fad9d7e1c
+author tiago.machado <tiago.machado@hotelurbano.com.br> 1400679416 -0300
+committer tiago.machado <tiago.machado@hotelurbano.com.br> 1400679416 -0300
+
+    Parametrizando a url do aquivo har de acordo com os testes para evitar
+    sobreposiÃ§Ã£o
+
+:100644 100644 b4c42b488fdd70042e3b9926e95e6ee562947349 9840e9a950b22f116f3b9e5541aca97f08d39732 M	src/br/com/hotelurbano/tests/site/CommonsTestSite.java

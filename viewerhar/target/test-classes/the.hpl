@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Group-Id: viewerhar
+Short-Name: viewerhar
+Long-Name: Viewer HAR Report
+Url: http://jenkins-ci.org/plugin/viewerhar/
+Plugin-Version: 1.5-SNAPSHOT (private-05/23/2014 16:12-tbmachado)
+Hudson-Version: 1.532.3
+Jenkins-Version: 1.532.3
+Plugin-Developers: 
+Libraries: C:\projetos\viewerhar\target\classes
+Resource-Path: C:\projetos\viewerhar\src\main\webapp
+

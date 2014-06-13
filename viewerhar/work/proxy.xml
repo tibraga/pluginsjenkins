@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proxy>
+  <name>proxy.corp.hotelurbano.com.br</name>
+  <port>3128</port>
+  <userName>tbmachado</userName>
+  <secretPassword>4zFuIzYSKEzzHFpbSu5SG+1utG6njYT46HnPWMbOzZo=</secretPassword>
+</proxy>

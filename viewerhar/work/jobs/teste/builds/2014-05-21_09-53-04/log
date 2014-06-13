@@ -1,0 +1,25 @@
+Iniciado pelo usuário [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\projetos\viewerhar\work\jobs\teste\workspace
+ > git.exe rev-parse --is-inside-work-tree
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git
+Fetching upstream changes from http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git
+ > git.exe --version
+ > git.exe fetch --tags --progress http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "origin/master^{commit}"
+Checking out Revision ad57d5a434aba1d91e7f48f9fcfa81faab24a63c (origin/master)
+ > git.exe config core.sparsecheckout
+ > git.exe checkout -f ad57d5a434aba1d91e7f48f9fcfa81faab24a63c
+ > git.exe rev-list ad57d5a434aba1d91e7f48f9fcfa81faab24a63c
+[workspace] $ C:\apache-maven-3.2.1\bin\mvn.bat test -Dtest=br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests -Dbrowser=chrome -DhostHub=http://localhost:4444/wd/hub -DproxyHar=true
+
+Error: JAVA_HOME not found in your environment. 
+Please set the JAVA_HOME variable in your environment to match the 
+location of your Java installation. 
+
+Build step 'Invocar alvos Maven de alto nível' marked build as failure
+Gravando o resultado dos testes
+Publishing Viewer Har report...
+Missing directory sample.har
+Build step 'Publish Viewer HAR Report' marked build as failure
+Finished: FAILURE

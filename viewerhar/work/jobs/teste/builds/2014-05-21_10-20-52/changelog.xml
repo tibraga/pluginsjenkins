@@ -1,0 +1,9 @@
+commit 0d6a7444b90ea4da3698f85718b54e6cbaeb91ba
+tree e99043d3bcdf4915e5bea4b69e046730a785b81d
+parent f2a899b4669444e87246468466720847c2e656e4
+author tiago.machado <tiago.machado@hotelurbano.com.br> 1400678346 -0300
+committer tiago.machado <tiago.machado@hotelurbano.com.br> 1400678346 -0300
+
+    Corrigindo para os testes locais do arquivo har
+
+:100644 100644 696f7c39026355423511c6f7bd8c8e21b19af1c2 39508e186cae18770a84edf6a723b0cc947b9d67 M	src/br/com/hotelurbano/tests/site/CommonsTestSite.java

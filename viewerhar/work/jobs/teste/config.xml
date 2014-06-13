@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@2.2.1">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Maven>
+      <targets>test -Dtest=br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests -Dbrowser=chrome -DhostHub=http://localhost:4444/wd/hub -DproxyHar=true -DpathExtensionProxy=&quot;C:\projetos\HUTestsSelenium\resources\scripts\extension_chrome_proxy&quot;</targets>
+      <mavenName>Maven local</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+    </hudson.tasks.Maven>
+  </builders>
+  <publishers>
+    <hudson.tasks.junit.JUnitResultArchiver>
+      <testResults>target/chrome/surefire-reports/TEST-br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests.xml</testResults>
+      <keepLongStdio>false</keepLongStdio>
+      <testDataPublishers/>
+    </hudson.tasks.junit.JUnitResultArchiver>
+    <br.eti.tiagobraga.jenkins.plugins.viewerhar.ViewerHarReportPublisher plugin="viewerhar@1.0-SNAPSHOT">
+      <SELENIUM__REPORTS__TARGET>viewerHarReports</SELENIUM__REPORTS__TARGET>
+      <testResultsDir>target/chrome/br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests.json</testResultsDir>
+      <onlyFailure>false</onlyFailure>
+    </br.eti.tiagobraga.jenkins.plugins.viewerhar.ViewerHarReportPublisher>
+  </publishers>
+  <buildWrappers/>
+</project>

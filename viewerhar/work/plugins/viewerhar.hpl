@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Group-Id: viewerhar
+Short-Name: viewerhar
+Long-Name: viewerhar
+Url: http://jenkins-ci.org/plugin/viewerhar/
+Plugin-Version: 1.0-SNAPSHOT (private-05/21/2014 19:00-tbmachado)
+Hudson-Version: 1.532.3
+Jenkins-Version: 1.532.3
+Plugin-Dependencies: ui-samples-plugin:1.532.3
+Plugin-Developers: 
+Libraries: C:\projetos\viewerhar\target\classes
+Resource-Path: C:\projetos\viewerhar\src\main\webapp
+

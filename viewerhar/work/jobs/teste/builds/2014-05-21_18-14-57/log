@@ -1,0 +1,82 @@
+Iniciado pelo usuário [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace C:\projetos\viewerhar\work\jobs\teste\workspace
+ > git.exe rev-parse --is-inside-work-tree
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git
+Fetching upstream changes from http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git
+ > git.exe --version
+ > git.exe fetch --tags --progress http://git.corp.hotelurbano.com.br/tiago.machado/hutests.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "origin/master^{commit}"
+Checking out Revision 790fb109f8a34f0b27519b9d4514fe6ec25bef00 (origin/master)
+ > git.exe config core.sparsecheckout
+ > git.exe checkout -f 790fb109f8a34f0b27519b9d4514fe6ec25bef00
+ > git.exe rev-list b428f41c014497da43135b512eabb183d9375379
+[workspace] $ C:\apache-maven-3.2.1\bin\mvn.bat test -Dtest=br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests -Dbrowser=chrome -DhostHub=http://localhost:4444/wd/hub -DproxyHar=true -DpathExtensionProxy=C:\projetos\HUTestsSelenium\resources\scripts\extension_chrome_proxy
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HUTestsSelenium 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HUTestsSelenium ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ HUTestsSelenium ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ HUTestsSelenium ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projetos\viewerhar\work\jobs\teste\workspace\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ HUTestsSelenium ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ HUTestsSelenium ---
+[INFO] Surefire report directory: C:\projetos\viewerhar\work\jobs\teste\workspace\target\chrome\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests
+mai 21, 2014 6:15:07 PM net.sf.uadetector.internal.data.DataBuilder addPatternToDevice
+INFORMAÇÕES: No pattern available for 'Other'.
+mai 21, 2014 6:15:07 PM net.sf.uadetector.internal.data.DataBuilder addPatternToDevice
+INFORMAÇÕES: No pattern available for 'Personal computer'.
+mai 21, 2014 6:15:07 PM net.sf.uadetector.internal.data.DataBuilder addPatternToDevice
+INFORMAÇÕES: No pattern available for 'Other'.
+mai 21, 2014 6:15:07 PM net.sf.uadetector.internal.data.DataBuilder addPatternToDevice
+INFORMAÇÕES: No pattern available for 'Personal computer'.
+mai 21, 2014 6:15:08 PM net.lightbody.bmp.proxy.jetty.http.HttpServer doStart
+INFORMAÇÕES: Version Jetty/5.1.x
+mai 21, 2014 6:15:08 PM net.lightbody.bmp.proxy.jetty.util.Container start
+INFORMAÇÕES: Started HttpContext[/,/]
+mai 21, 2014 6:15:08 PM net.lightbody.bmp.proxy.jetty.http.SocketListener start
+INFORMAÇÕES: Started SocketListener on 0.0.0.0:9090
+mai 21, 2014 6:15:08 PM net.lightbody.bmp.proxy.jetty.util.Container start
+INFORMAÇÕES: Started net.lightbody.bmp.proxy.jetty.jetty.Server@5ebec15
+Parametro baseUrl nao existe. Usando o padrão: http://www.hotelurbano.com.br/
+file:/C:/projetos/viewerhar/work/jobs/teste/workspace/./target/chrome/br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests.json
+Exibindo o conteúdo do arquivo HAR.
+{"log":{"comment":"","version":"1.2","entries":[],"pages":[{"id":"HotelUrbano.json","comment":"","title":"","startedDateTime":"2014-05-21T21:15:08.331+0000","pageTimings":{"comment":""}}],"creator":{"name":"BrowserMob Proxy","comment":"","version":"2.0"}}}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.705 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.039 s
+[INFO] Finished at: 2014-05-21T18:15:18-03:00
+[INFO] Final Memory: 10M/184M
+[INFO] ------------------------------------------------------------------------
+Gravando o resultado dos testes
+Publishing Viewer Har report...
+Path files: file:/C:/projetos/viewerhar/work/jobs/teste/workspace/target/chrome/br.com.hotelurbano.tests.suites.SiteTesteProxySuiteTests.json
+Copying the reports.
+File copy to file:/C:/projetos/viewerhar/work/jobs/teste/builds/2014-05-21_18-14-57/reporthar.json
+Finished: SUCCESS
